@@ -1,0 +1,101 @@
+.left {
+    width: 40%;
+    height: 62.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3%;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.left form {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.left form .upp {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap:20px;
+}
+
+.left form .upp input {
+    outline: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.025em;
+    font-size: 14px;
+    transition: 0.2s border;
+    background-color: #F5F5F7;
+    border: 1.5px solid #d3d3d3;
+}
+
+.left form .upp input:focus {
+    border: 2px solid #0064ff;
+}
+
+.left form .down {
+    width: 90%;
+    height: 75%;
+}
+
+.left form .down textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.025em;
+    font-size: 14px;
+    transition: 0.2s border;
+    border: 1.5px solid #d3d3d3;
+    background-color: #F5F5F7;
+    resize: none;
+}
+
+.left form .down textarea:focus {
+    border: 2px solid #0064ff;
+}
+
+.left .submit {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left .submit button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: #0064ff;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s all;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.left .submit button:hover {
+    background-color: #004fc5;
+}
+
+.left .submit button:active {
+    background-color: #004fc5;
+}
